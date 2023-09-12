@@ -1,4 +1,4 @@
-npm WARN ignoring workspace config at /home/gabriel/scratch-research/my-turbo-scratch/packages/scratch-blocks/.npmrc 
+npm WARN ignoring workspace config at /Users/gabriel/pessoal/scratch-mororepo/packages/scratch-blocks/.npmrc 
 
 > scratch-blocks@0.1.0 build
 > python build.py && webpack
@@ -10,10 +10,10 @@ blocks_vertical/vertical_extensions.js:55: WARNING - Misplaced function annotati
 0 error(s), 1 warning(s)
 Using local compiler: google-closure-compiler ...
 
-SUCCESS: blockly_compressed_vertical.js
-Size changed from 3207 KB to 981 KB (31%).
 SUCCESS: blockly_uncompressed_horizontal.js
 SUCCESS: blockly_uncompressed_vertical.js
+SUCCESS: blockly_compressed_vertical.js
+Size changed from 3207 KB to 981 KB (31%).
 SUCCESS: blockly_compressed_horizontal.js
 Size changed from 3177 KB to 969 KB (31%).
 SUCCESS: blocks_compressed_horizontal.js
@@ -26,19 +26,19 @@ Hash: 154aa715c5454d7d9437c8c60c6dfbe56370938bf2c3aecb57eb06551de2
 Version: webpack 4.46.0
 Child
     Hash: 154aa715c5454d7d9437
-    Time: 2639ms
-    Built at: 09/12/2023 8:28:04 AM
+    Time: 2186ms
+    Built at: 12/09/2023 11:15:05
             Asset      Size      Chunks                    Chunk Names
     horizontal.js   2.2 MiB  horizontal  [emitted]  [big]  horizontal
       vertical.js  2.29 MiB    vertical  [emitted]  [big]  vertical
     Entrypoint horizontal [big] = horizontal.js
     Entrypoint vertical [big] = vertical.js
-    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_horizontal,goog=../shim/blockly_compressed_horizontal.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/messages.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?Blockly=../shim/blocks_compressed_horizontal,goog=../shim/blockly_compressed_horizontal.goog!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly!./msg/messages.js 15.7 KiB {horizontal} [built]
-    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_horizontal-blockly_compressed_horizontal-messages,goog=../shim/blockly_compressed_horizontal.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/scratch_msgs.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?Blockly=../shim/blocks_compressed_horizontal-blockly_compressed_horizontal-messages,goog=../shim/blockly_compressed_horizontal.goog!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly!./msg/scratch_msgs.js 1.08 MiB {horizontal} [built]
-    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/messages.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly!./msg/messages.js 15.7 KiB {vertical} [built]
-    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/scratch_msgs.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly!./msg/scratch_msgs.js 1.08 MiB {vertical} [built]
-    [../../node_modules/imports-loader/index.js?this=>window!../../node_modules/exports-loader/index.js?Blockly&goog!./blockly_compressed_horizontal.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?this=>window!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly&goog!./blockly_compressed_horizontal.js 965 KiB {horizontal} [built]
-    [../../node_modules/imports-loader/index.js?this=>window!../../node_modules/exports-loader/index.js?Blockly&goog!./blockly_compressed_vertical.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?this=>window!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly&goog!./blockly_compressed_vertical.js 976 KiB {vertical} [built]
+    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_horizontal,goog=../shim/blockly_compressed_horizontal.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/messages.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?Blockly=../shim/blocks_compressed_horizontal,goog=../shim/blockly_compressed_horizontal.goog!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly!./msg/messages.js 15.7 KiB {horizontal} [built]
+    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_horizontal-blockly_compressed_horizontal-messages,goog=../shim/blockly_compressed_horizontal.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/scratch_msgs.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?Blockly=../shim/blocks_compressed_horizontal-blockly_compressed_horizontal-messages,goog=../shim/blockly_compressed_horizontal.goog!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly!./msg/scratch_msgs.js 1.08 MiB {horizontal} [built]
+    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/messages.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly!./msg/messages.js 15.7 KiB {vertical} [built]
+    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/scratch_msgs.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly!./msg/scratch_msgs.js 1.08 MiB {vertical} [built]
+    [../../node_modules/imports-loader/index.js?this=>window!../../node_modules/exports-loader/index.js?Blockly&goog!./blockly_compressed_horizontal.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?this=>window!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly&goog!./blockly_compressed_horizontal.js 965 KiB {horizontal} [built]
+    [../../node_modules/imports-loader/index.js?this=>window!../../node_modules/exports-loader/index.js?Blockly&goog!./blockly_compressed_vertical.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?this=>window!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly&goog!./blockly_compressed_vertical.js 976 KiB {vertical} [built]
     [./shim/blockly_compressed_horizontal.goog.js] 66 bytes {horizontal} [built]
     [./shim/blockly_compressed_horizontal.js] 118 bytes {horizontal} [built]
     [./shim/blockly_compressed_vertical.goog.js] 64 bytes {vertical} [built]
@@ -51,19 +51,19 @@ Child
         + 9 hidden modules
 Child
     Hash: c8c60c6dfbe56370938b
-    Time: 2625ms
-    Built at: 09/12/2023 8:28:04 AM
+    Time: 2172ms
+    Built at: 12/09/2023 11:15:05
             Asset      Size      Chunks             Chunk Names
     horizontal.js   2.2 MiB  horizontal  [emitted]  horizontal
       vertical.js  2.29 MiB    vertical  [emitted]  vertical
     Entrypoint horizontal = horizontal.js
     Entrypoint vertical = vertical.js
-    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_horizontal,goog=../shim/blockly_compressed_horizontal.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/messages.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?Blockly=../shim/blocks_compressed_horizontal,goog=../shim/blockly_compressed_horizontal.goog!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly!./msg/messages.js 15.7 KiB {horizontal} [built]
-    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_horizontal-blockly_compressed_horizontal-messages,goog=../shim/blockly_compressed_horizontal.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/scratch_msgs.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?Blockly=../shim/blocks_compressed_horizontal-blockly_compressed_horizontal-messages,goog=../shim/blockly_compressed_horizontal.goog!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly!./msg/scratch_msgs.js 1.08 MiB {horizontal} [built]
-    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/messages.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly!./msg/messages.js 15.7 KiB {vertical} [built]
-    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/scratch_msgs.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly!./msg/scratch_msgs.js 1.08 MiB {vertical} [built]
-    [../../node_modules/imports-loader/index.js?this=>window!../../node_modules/exports-loader/index.js?Blockly&goog!./blockly_compressed_horizontal.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?this=>window!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly&goog!./blockly_compressed_horizontal.js 965 KiB {horizontal} [built]
-    [../../node_modules/imports-loader/index.js?this=>window!../../node_modules/exports-loader/index.js?Blockly&goog!./blockly_compressed_vertical.js] /home/gabriel/scratch-research/my-turbo-scratch/node_modules/imports-loader?this=>window!/home/gabriel/scratch-research/my-turbo-scratch/node_modules/exports-loader?Blockly&goog!./blockly_compressed_vertical.js 976 KiB {vertical} [built]
+    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_horizontal,goog=../shim/blockly_compressed_horizontal.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/messages.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?Blockly=../shim/blocks_compressed_horizontal,goog=../shim/blockly_compressed_horizontal.goog!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly!./msg/messages.js 15.7 KiB {horizontal} [built]
+    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_horizontal-blockly_compressed_horizontal-messages,goog=../shim/blockly_compressed_horizontal.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/scratch_msgs.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?Blockly=../shim/blocks_compressed_horizontal-blockly_compressed_horizontal-messages,goog=../shim/blockly_compressed_horizontal.goog!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly!./msg/scratch_msgs.js 1.08 MiB {horizontal} [built]
+    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/messages.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical,goog=../shim/blockly_compressed_vertical.goog!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly!./msg/messages.js 15.7 KiB {vertical} [built]
+    [../../node_modules/imports-loader/index.js?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!../../node_modules/exports-loader/index.js?Blockly!./msg/scratch_msgs.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?Blockly=../shim/blocks_compressed_vertical-blockly_compressed_vertical-messages,goog=../shim/blockly_compressed_vertical.goog!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly!./msg/scratch_msgs.js 1.08 MiB {vertical} [built]
+    [../../node_modules/imports-loader/index.js?this=>window!../../node_modules/exports-loader/index.js?Blockly&goog!./blockly_compressed_horizontal.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?this=>window!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly&goog!./blockly_compressed_horizontal.js 965 KiB {horizontal} [built]
+    [../../node_modules/imports-loader/index.js?this=>window!../../node_modules/exports-loader/index.js?Blockly&goog!./blockly_compressed_vertical.js] /Users/gabriel/pessoal/scratch-mororepo/node_modules/imports-loader?this=>window!/Users/gabriel/pessoal/scratch-mororepo/node_modules/exports-loader?Blockly&goog!./blockly_compressed_vertical.js 976 KiB {vertical} [built]
     [./shim/blockly_compressed_horizontal.goog.js] 66 bytes {horizontal} [built]
     [./shim/blockly_compressed_horizontal.js] 118 bytes {horizontal} [built]
     [./shim/blockly_compressed_vertical.goog.js] 64 bytes {vertical} [built]
@@ -76,8 +76,8 @@ Child
         + 9 hidden modules
 Child
     Hash: f2c3aecb57eb06551de2
-    Time: 2910ms
-    Built at: 09/12/2023 8:28:05 AM
+    Time: 2292ms
+    Built at: 12/09/2023 11:15:05
                                                                             Asset        Size  Chunks                    Chunk Names
                                                           closure-library/AUTHORS   922 bytes          [emitted]         
                                                      closure-library/CONTRIBUTING    1.78 KiB          [emitted]         
